@@ -10,7 +10,7 @@ TO USE THIS VERSION:
 3. Watch the pipeline FAIL with complexity error
 """
 
-
+#test 
 def calculate_student_grade(score, attendance, assignments_completed,
                             participation, extra_credit, late_submissions,
                             group_project_score, midterm_score,
@@ -24,7 +24,7 @@ def calculate_student_grade(score, attendance, assignments_completed,
 
     final_grade = "F"
 
-    # Nested if/else hell begins here! (33 decision points)
+    # Nested if/else hell begins here! (test)(33 decision points)
     if score >= 90:
         if attendance >= 90:
             if assignments_completed >= 15:
